@@ -1,0 +1,58 @@
+{
+  "heading": "$ ls -la skills/",
+  "categories": [
+    {
+      "name": "languages",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "C",
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "name": "frameworks",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "React",
+        "Node.js",
+        "Express",
+        "Next.js",
+        "LangChain",
+        "LangGraph",
+        "Svelte",
+        "SvelteKit",
+        "Tailwind"
+      ]
+    },
+    {
+      "name": "tools",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Docker",
+        "AWS (Bedrock)",
+        "Git",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "technical",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL",
+        "pandas",
+        "NumPy",
+        "Scikit-Learn",
+        "PyTorch",
+        "OpenCV",
+        "Matplotlib"
+      ]
+    }
+  ],
+  "githubUsername": "Amaan2k"
+}

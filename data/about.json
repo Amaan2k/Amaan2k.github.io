@@ -1,0 +1,21 @@
+{
+  "heading": "$ cat about.md",
+  "bio": [
+    ""
+  ],
+  "highlights": [
+    {
+      "label": "Years Experience",
+      "value": "2+"
+    },
+    {
+      "label": "Projects Completed",
+      "value": "1+"
+    },
+    {
+      "label": "Technologies",
+      "value": "28+"
+    }
+  ],
+  "currentFocus": "Professional Developer"
+}

@@ -1,0 +1,94 @@
+{
+  "heading": "$ ps aux --sort=start_time",
+  "positions": [
+    {
+      "pid": "1337",
+      "company": "LOHAS",
+      "title": "Software Engineer",
+      "location": "",
+      "startDate": "Jun. 2024",
+      "endDate": "Current",
+      "status": "STOPPED",
+      "description": "Designed and deployed a full-stack transaction processing system based on PostgreSQL/Supabase with a Retool frontend, replacing 80+ interlinked spreadsheet workflow alongside handling migration of client data.\nEngineered SQL triggers for regular caching of account balances and automated fee generation for each transaction.\nBuilt an end-to-end intelligence pipeline for the firm. Transformed their email archive (100K+ messages) into a structured, entity-resolved corpus, an identity/relationship graph validated against independent data sources, an LLM-based knowledge extraction pipeline, along with a LanceDB-based RAG layer for custom Q&A retrieval.",
+      "achievements": [
+        "Designed and deployed a full-stack transaction processing system based on PostgreSQL/Supabase with a Retool frontend, replacing 80+ interlinked spreadsheet workflow alongside handling migration of client data.",
+        "Engineered SQL triggers for regular caching of account balances and automated fee generation for each transaction.",
+        "Built an end-to-end intelligence pipeline for the firm.",
+        "Transformed their email archive (100K+ messages) into a structured, entity-resolved corpus, an identity/relationship graph validated against independent data sources, an LLM-based knowledge extraction pipeline, along with a LanceDB-based RAG layer for custom Q&A retrieval."
+      ],
+      "technologies": [
+        "Python",
+        "PostgreSQL",
+        "Supabase",
+        "Retool",
+        "Claude API",
+        "RAG"
+      ]
+    },
+    {
+      "pid": "1237",
+      "company": "Renu",
+      "title": "Founding Engineer",
+      "location": "",
+      "startDate": "Nov. 2024",
+      "endDate": "Mar. 2025",
+      "status": "STOPPED",
+      "description": "Developed and deployed a full-stack web application with Next.js, TypeScript, and PostgreSQL, allowing users in NYC to browse and post free items via an interactive Leaflet.js map.\nContainerized the application with Docker multi-stage builds and Docker Compose, decoupling frontend and backend into isolated services with persistent volumes.\nReplaced duplicated user data in listing records with ID references resolved through GraphQL, so 500+ existing listings always display current user profiles without needing a schema migration.",
+      "achievements": [
+        "Developed and deployed a full-stack web application with Next.js, TypeScript, and PostgreSQL, allowing users in NYC to browse and post free items via an interactive Leaflet.js map.",
+        "Containerized the application with Docker multi-stage builds and Docker Compose, decoupling frontend and backend into isolated services with persistent volumes.",
+        "Replaced duplicated user data in listing records with ID references resolved through GraphQL, so 500+ existing listings always display current user profiles without needing a schema migration."
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "GraphQL",
+        "Docker"
+      ]
+    },
+    {
+      "pid": "1137",
+      "company": "Sure We Can",
+      "title": "Full-Stack Software Engineer Intern",
+      "location": "",
+      "startDate": "Jun. 2024",
+      "endDate": "Aug. 2024",
+      "status": "STOPPED",
+      "description": "Led end-to-end development of a scalable transportation scheduling platform for a Brooklyn non-profit, engineering the system with React/TypeScript, Node.js/Express, and MongoDB to securely support 100+ active users across NYC.\nArchitected and deployed 20+ secure REST API endpoints backed by a 5-layer middleware stack, built for fault tolerance and scalability under concurrent load.\nIntegrated third-party microservices (Twilio, Google Maps) to power real-time logistics tracking and automated notifications, enforcing access control and security standards through a role-based React Admin interface.",
+      "achievements": [
+        "Led end-to-end development of a scalable transportation scheduling platform for a Brooklyn non-profit, engineering the system with React/TypeScript, Node.js/Express, and MongoDB to securely support 100+ active users across NYC.",
+        "Architected and deployed 20+ secure REST API endpoints backed by a 5-layer middleware stack, built for fault tolerance and scalability under concurrent load.",
+        "Integrated third-party microservices (Twilio, Google Maps) to power real-time logistics tracking and automated notifications, enforcing access control and security standards through a role-based React Admin interface."
+      ],
+      "technologies": [
+        "React",
+        "Tailwind",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "pid": "1037",
+      "company": "CEDP Skill Institute",
+      "title": "Data Science Intern",
+      "location": "",
+      "startDate": "Jan. 2023",
+      "endDate": "Sep. 2023",
+      "status": "STOPPED",
+      "description": "Performed marketing ROI analysis to optimize channel allocation (Google Ads/Facebook/Instagram), driving a 30% reduction in cost-per-admission and a 20% increase in student enrollment.\nEngineered a centralized data pipeline and Power BI dashboard system to track core business KPIs, reducing reporting time from weekly to daily and enabling real-time data-driven decision making by the C-suite.",
+      "achievements": [
+        "Performed marketing ROI analysis to optimize channel allocation (Google Ads/Facebook/Instagram), driving a 30% reduction in cost-per-admission and a 20% increase in student enrollment.",
+        "Engineered a centralized data pipeline and Power BI dashboard system to track core business KPIs, reducing reporting time from weekly to daily and enabling real-time data-driven decision making by the C-suite."
+      ],
+      "technologies": [
+        "Python",
+        "R",
+        "PowerBI",
+        "SQL"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "asciiName": [
+    "================",
+    "  AMAAN ANSARI  ",
+    "================"
+  ],
+  "name": "AMAAN ANSARI",
+  "tagline": "Available for work",
+  "roles": [
+    "Professional Developer",
+    "Software Engineer",
+    "Founding Engineer",
+    "Full-Stack Software Engineer Intern"
+  ],
+  "bootSequence": [
+    "[OK] Loading kernel modules...",
+    "[OK] Initializing network interfaces...",
+    "[OK] Mounting filesystems...",
+    "[OK] Starting SSH daemon...",
+    "[OK] Loading portfolio data...",
+    "[OK] System ready."
+  ],
+  "techTags": [
+    "Python",
+    "TypeScript",
+    "JavaScript",
+    "C",
+    "C++",
+    "Java"
+  ],
+  "socialLinks": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/Amaan2k",
+      "icon": "github"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:ama10595@nyu.edu",
+      "icon": "email"
+    }
+  ],
+  "resumeUrl": "",
+  "stats": {
+    "experience": "2+ years",
+    "projects": 1,
+    "commits": "500+"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "heading": "$ cat /var/log/education.log",
+  "entries": [
+    {
+      "institution": "New York University, Tandon School of Engineering",
+      "degree": "Master of Science",
+      "field": "Computer Engineering",
+      "startDate": "Sep. 2024",
+      "endDate": "May 2026",
+      "gpa": "3.70/4",
+      "honors": []
+    },
+    {
+      "institution": "University of Mumbai",
+      "degree": "Bachelor of Technology",
+      "field": "Computer Engineering",
+      "startDate": "Sep. 2020",
+      "endDate": "May 2024",
+      "gpa": "3.70/4",
+      "honors": []
+    }
+  ],
+  "certifications": []
+}
