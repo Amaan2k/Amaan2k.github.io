@@ -2,170 +2,222 @@
   "heading": "$ find ~/projects -type d -maxdepth 1",
   "projects": [
     {
-      "name": "sql-datawarehouse-project",
-      "description": "Learning project built with modern web technologies",
+      "name": "ShadowEngineer-AWS-Hackathon-2025",
+      "description": "AI Onboarding Copilot, 3rd place at the AWS Agentic AI Hackathon NYC 2025. Transcribes team meetings with Deepgram, and a Bedrock agent maps them to Jira tickets, docs and action items for new engineers.",
       "technologies": [
-        "TSQL"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "TSQL",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/sql-datawarehouse-project",
-      "isNew": false
-    },
-    {
-      "name": "build-a-recommendation-engine-example-with-spring-boot-and-aerospike",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "Java"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Java",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/build-a-recommendation-engine-example-with-spring-boot-and-aerospike",
-      "isNew": false
-    },
-    {
-      "name": "centralized-asset-management-system-with-compliance-self-audit-dashboard",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "Python",
-        "Shell",
-        "Ruby"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/centralized-asset-management-system-with-compliance-self-audit-dashboard",
-      "isNew": false
-    },
-    {
-      "name": "netcode-arena",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [
-        "C#",
-        "Dockerfile"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "C#",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/netcode-arena",
-      "isNew": false
-    },
-    {
-      "name": "advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Java",
+        "AWS Bedrock",
+        "Claude",
+        "AWS Lambda",
+        "Deepgram",
         "JavaScript",
-        "HTML"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Java",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
-      "isNew": false
-    },
-    {
-      "name": "accountill",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Dockerfile",
-        "Procfile"
+        "Python"
       ],
       "stars": 0,
       "forks": 0,
       "language": "JavaScript",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/accountill",
-      "isNew": false
+      "githubUrl": "https://github.com/Amaan2k/ShadowEngineer-AWS-Hackathon-2025",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/ShadowEngineer-AWS-Hackathon-2025.svg"
     },
     {
       "name": "agentgate",
-      "description": "Personal development project using industry best practices",
+      "description": "Gateway between LLM agents and internal REST APIs: tools generated from OpenAPI specs, scoped agent keys, allow/deny policies, Redis-backed rate limits and budgets, and a replayable Postgres audit log with OpenTelemetry tracing.",
       "technologies": [
         "Python",
-        "Dockerfile"
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "OpenTelemetry",
+        "Docker"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/agentgate",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/agentgate.svg"
     },
     {
       "name": "streamledger",
-      "description": "Personal project for exploring modern development practices",
+      "description": "Event-sourced, CQRS ledger for balances and inventory: append-only events, optimistic concurrency and dedupe keys mean concurrent or retried writes can never double-spend.",
       "technologies": [
         "Go",
-        "Dockerfile"
+        "gRPC",
+        "Kafka",
+        "NATS",
+        "Prometheus",
+        "Docker"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Go",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/streamledger",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/streamledger.svg"
     },
     {
-      "name": "ecommerce-microservice-backend-app",
-      "description": "Educational project for mastering software architecture",
+      "name": "netcode-arena",
+      "description": "Server-authoritative multiplayer netcode built from scratch: client-side prediction, server reconciliation and snapshot interpolation over UDP, tested under injected latency and packet loss.",
       "technologies": [
-        "Java",
-        "XML",
-        "YAML",
-        "SQL",
-        "Dockerfile"
+        "C#",
+        ".NET",
+        "UDP",
+        "Docker"
       ],
       "stars": 0,
       "forks": 0,
-      "language": "Java",
+      "language": "C#",
       "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/ecommerce-microservice-backend-app",
-      "isNew": false
+      "githubUrl": "https://github.com/Amaan2k/netcode-arena",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/netcode-arena.svg"
+    },
+    {
+      "name": "accountill",
+      "description": "MERN invoicing platform for freelancers and small businesses: create, email and download PDF invoices, receipts, estimates and quotes, with due dates and a business dashboard.",
+      "technologies": [
+        "MongoDB",
+        "Express",
+        "React",
+        "Node.js",
+        "Docker"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/accountill",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/accountill.svg"
     },
     {
       "name": "scholarly-insights",
-      "description": "A web application for discovering and discussing arXiv research papers",
+      "description": "Team-built app for discovering and discussing arXiv research papers, with threaded comments and notifications. Django REST backend with arXiv API integration and a React frontend.",
       "technologies": [
         "Python",
-        "JavaScript",
-        "HTML",
-        "CSS"
+        "Django",
+        "React",
+        "arXiv API"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/scholarly-insights",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/scholarly-insights.svg"
+    },
+    {
+      "name": "ecommerce-microservice-backend-app",
+      "description": "Cloud-native e-commerce backend split into Spring Boot / Spring Cloud microservices (users, products, orders, payments) behind an API gateway with service discovery and central config.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Spring Cloud",
+        "MySQL",
+        "Docker",
+        "Kubernetes"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/ecommerce-microservice-backend-app",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/ecommerce-microservice-backend-app.svg"
+    },
+    {
+      "name": "sql-datawarehouse-project",
+      "description": "Medallion data warehouse on SQL Server: ERP/CRM CSVs land in Bronze, get cleansed and standardized in Silver, and are published as an analytics-ready Gold star schema with quality checks.",
+      "technologies": [
+        "T-SQL",
+        "SQL Server",
+        "ETL",
+        "Data Modeling"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "TSQL",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/sql-datawarehouse-project",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/sql-datawarehouse-project.svg"
+    },
+    {
+      "name": "build-a-recommendation-engine-example-with-spring-boot-and-aerospike",
+      "description": "Product recommendation engine built with Spring Boot, using Aerospike as a low-latency store for user behaviour and item similarity lookups.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Aerospike",
+        "Maven"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/build-a-recommendation-engine-example-with-spring-boot-and-aerospike",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/build-a-recommendation-engine-example-with-spring-boot-and-aerospike.svg"
+    },
+    {
+      "name": "centralized-asset-management-system-with-compliance-self-audit-dashboard",
+      "description": "Centralized security dashboard across Linux and Windows machines: continuous security assessment, CIS Benchmark compliance checks and data-loss-prevention status, shown live in a Node.js dashboard.",
+      "technologies": [
+        "Node.js",
+        "JavaScript",
+        "Vagrant",
+        "Shell",
+        "CIS Benchmarks"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/centralized-asset-management-system-with-compliance-self-audit-dashboard",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/centralized-asset-management-system-with-compliance-self-audit-dashboard.svg"
+    },
+    {
+      "name": "advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
+      "description": "Online banking single-page app on a Spring Boot REST API: register, log in, open accounts, transfer funds and view history, with every component synced in real time through Redux.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React",
+        "Redux"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Java",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/advanced-full-stack-project-with-java-spring-boot-and-react-redux-online-banking.svg"
     },
     {
       "name": "bloodbank",
-      "description": "Bloodbank system",
+      "description": "Blood bank and donation management system with separate admin and donor views for managing donors, blood stock and requests.",
       "technologies": [
         "PHP",
-        "Hack"
+        "MySQL",
+        "HTML",
+        "CSS"
       ],
       "stars": 0,
       "forks": 0,
       "language": "PHP",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/bloodbank",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/bloodbank.svg"
     },
     {
       "name": "carfinder",
-      "description": "CarFinder.com",
+      "description": "CarFinder.com: a responsive car-browsing website for exploring models from different manufacturers.",
       "technologies": [
         "HTML",
         "CSS"
@@ -175,60 +227,54 @@
       "language": "HTML",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/carfinder",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/carfinder.svg"
     },
     {
       "name": "bookstoreapp-distributed-application",
-      "description": "Modern web application demonstrating clean code principles",
-      "technologies": [],
+      "description": "Distributed bookstore application (work in progress).",
+      "technologies": [
+        "Distributed Systems"
+      ],
       "stars": 0,
       "forks": 0,
       "language": "",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/bookstoreapp-distributed-application",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/bookstoreapp-distributed-application.svg"
     },
     {
       "name": "LeetCode-Bootcamp-Fall-2025-Solutions",
-      "description": "GitHub repository: LeetCode-Bootcamp-Fall-2025-Solutions",
+      "description": "Weekly solutions from a Fall 2025 LeetCode bootcamp, covering core data structures and algorithms in Python.",
       "technologies": [
-        "Python"
+        "Python",
+        "Algorithms",
+        "Data Structures"
       ],
       "stars": 0,
       "forks": 0,
       "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/LeetCode-Bootcamp-Fall-2025-Solutions",
-      "isNew": false
-    },
-    {
-      "name": "ShadowEngineer-AWS-Hackathon-2025",
-      "description": "GitHub repository: ShadowEngineer-AWS-Hackathon-2025",
-      "technologies": [
-        "JavaScript",
-        "Python",
-        "HTML",
-        "CSS"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "JavaScript",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/ShadowEngineer-AWS-Hackathon-2025",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/LeetCode-Bootcamp-Fall-2025-Solutions.svg"
     },
     {
       "name": "dsny-map",
-      "description": "GitHub repository: dsny-map",
+      "description": "Interactive map of NYC Department of Sanitation (DSNY) collection frequencies, built from the city's open data.",
       "technologies": [
-        "HTML"
+        "JavaScript",
+        "Leaflet",
+        "NYC Open Data"
       ],
       "stars": 0,
       "forks": 0,
       "language": "HTML",
       "liveUrl": "",
       "githubUrl": "https://github.com/Amaan2k/dsny-map",
-      "isNew": false
+      "isNew": false,
+      "thumbnail": "assets/img/projects/dsny-map.svg"
     }
   ]
 }
