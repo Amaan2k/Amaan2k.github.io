@@ -750,6 +750,13 @@
     var sections = document.querySelectorAll('.section');
     if (!sections.length) return;
 
+    if (!('IntersectionObserver' in window)) {
+      sections.forEach(function (s) { s.classList.add('visible'); });
+      return;
+    }
+
+    // threshold 0 + rootMargin: tall sections (e.g. projects stacked in one
+    // column on mobile) can never reach a ratio threshold on a small screen
     var observer = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
@@ -757,7 +764,7 @@
           observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.15 });
+    }, { threshold: 0, rootMargin: '0px 0px -10% 0px' });
 
     sections.forEach(function (s) { observer.observe(s); });
   }
