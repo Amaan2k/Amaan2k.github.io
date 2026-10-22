@@ -21,61 +21,6 @@
       "thumbnail": "assets/img/projects/ShadowEngineer-AWS-Hackathon-2025.svg"
     },
     {
-      "name": "agentgate",
-      "description": "Gateway between LLM agents and internal REST APIs: tools generated from OpenAPI specs, scoped agent keys, allow/deny policies, Redis-backed rate limits and budgets, and a replayable Postgres audit log with OpenTelemetry tracing.",
-      "technologies": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "Redis",
-        "OpenTelemetry",
-        "Docker"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Python",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/agentgate",
-      "isNew": false,
-      "thumbnail": "assets/img/projects/agentgate.svg"
-    },
-    {
-      "name": "streamledger",
-      "description": "Event-sourced, CQRS ledger for balances and inventory: append-only events, optimistic concurrency and dedupe keys mean concurrent or retried writes can never double-spend.",
-      "technologies": [
-        "Go",
-        "gRPC",
-        "Kafka",
-        "NATS",
-        "Prometheus",
-        "Docker"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "Go",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/streamledger",
-      "isNew": false,
-      "thumbnail": "assets/img/projects/streamledger.svg"
-    },
-    {
-      "name": "netcode-arena",
-      "description": "Server-authoritative multiplayer netcode built from scratch: client-side prediction, server reconciliation and snapshot interpolation over UDP, tested under injected latency and packet loss.",
-      "technologies": [
-        "C#",
-        ".NET",
-        "UDP",
-        "Docker"
-      ],
-      "stars": 0,
-      "forks": 0,
-      "language": "C#",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/Amaan2k/netcode-arena",
-      "isNew": false,
-      "thumbnail": "assets/img/projects/netcode-arena.svg"
-    },
-    {
       "name": "accountill",
       "description": "MERN invoicing platform for freelancers and small businesses: create, email and download PDF invoices, receipts, estimates and quotes, with due dates and a business dashboard.",
       "technologies": [
@@ -275,6 +220,61 @@
       "githubUrl": "https://github.com/Amaan2k/dsny-map",
       "isNew": false,
       "thumbnail": "assets/img/projects/dsny-map.svg"
+    },
+    {
+      "name": "agentgate",
+      "description": "Gateway between LLM agents and internal REST APIs: tools generated from OpenAPI specs, scoped agent keys, allow/deny policies, Redis-backed rate limits and budgets, and a replayable Postgres audit log with OpenTelemetry tracing.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Redis",
+        "OpenTelemetry",
+        "Docker"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Python",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/agentgate",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/agentgate.svg"
+    },
+    {
+      "name": "streamledger",
+      "description": "Event-sourced, CQRS ledger for balances and inventory: append-only events, optimistic concurrency and dedupe keys mean concurrent or retried writes can never double-spend.",
+      "technologies": [
+        "Go",
+        "gRPC",
+        "Kafka",
+        "NATS",
+        "Prometheus",
+        "Docker"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "Go",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/streamledger",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/streamledger.svg"
+    },
+    {
+      "name": "netcode-arena",
+      "description": "Server-authoritative multiplayer netcode: client-side prediction, server reconciliation and snapshot interpolation over UDP, tested under injected latency and packet loss.",
+      "technologies": [
+        "C#",
+        ".NET",
+        "UDP",
+        "Docker"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "C#",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/Amaan2k/netcode-arena",
+      "isNew": false,
+      "thumbnail": "assets/img/projects/netcode-arena.svg"
     }
   ]
 }
